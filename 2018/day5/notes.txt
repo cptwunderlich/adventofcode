@@ -1,0 +1,1 @@
+foldr von https://www.burgaud.com/foldl-foldr-python

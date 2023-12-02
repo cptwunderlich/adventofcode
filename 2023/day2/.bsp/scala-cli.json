@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/ben/.local/share/coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/home/ben/Programmieren/Advent of Code/2023/day2/.scala-build/ide-options-v2.json",
+    "/home/ben/Programmieren/Advent of Code/2023/day2"
+  ],
+  "version": "1.0.6",
+  "bspVersion": "2.1.0-M6",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

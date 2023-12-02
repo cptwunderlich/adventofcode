@@ -48,7 +48,7 @@ parseHands = foldl' accFun ([], [], []) . concatMap (hands . T.split (',' ==)) .
         Red -> (n : rs, gs, bs)
         Green -> (rs, n : gs, bs)
         Blue -> (rs, gs, n : bs)
-        
+
     hands = map (\t -> (cnt t, color t))
 
     cnt :: Text -> Int

@@ -27,10 +27,10 @@ def parseGame(s: String): Game =
             val (cnt, rest) = x.strip().span(!_.isSpaceChar)
             val color =
                 rest.drop(1) match
-                    case "red" => Color.Red
+                    case "red"   => Color.Red
                     case "green" => Color.Green
-                    case "blue" => Color.Blue
-                    case err => throw new RuntimeException(s"Impossible color: $err")
+                    case "blue"  => Color.Blue
+                    case err     => throw new RuntimeException(s"Impossible color: $err")
             (cnt.toInt, color)
             
     def hands(s: String): Map[Color, Array[Int]] =

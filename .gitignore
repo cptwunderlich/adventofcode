@@ -3,3 +3,5 @@
 .bsp
 .vscode
 .scala-build
+*.o
+*.hi

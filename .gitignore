@@ -5,3 +5,4 @@
 .scala-build
 *.o
 *.hi
+input
